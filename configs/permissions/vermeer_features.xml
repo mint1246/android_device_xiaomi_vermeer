@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- Enable the Pixel 2026 experience feature used by Gboard advanced voice typing. -->
+    <feature name="com.google.android.feature.PIXEL_2026_EXPERIENCE" />
+</permissions>

@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.vermeer.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vermeer.rc
 
+# Product features
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/vermeer_features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vermeer_features.xml
+
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureResVermeer \
