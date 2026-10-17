@@ -11,6 +11,9 @@ $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/vermeer/vermeer-vendor.mk)
 
+# Xiaomi camera
+$(call inherit-product, device/xiaomi/vermeer-miuicamera/device.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     firmware_aw_cali.bin_symlink

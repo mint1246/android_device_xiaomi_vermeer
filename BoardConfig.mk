@@ -12,6 +12,9 @@ include vendor/xiaomi/vermeer/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/vermeer
 
+# Xiaomi camera
+include device/xiaomi/vermeer-miuicamera/BoardConfig.mk
+
 # Display
 TARGET_SCREEN_DENSITY := 530
 
